@@ -22,10 +22,13 @@ class _InstagramHomeState extends State<InstagramHome> {
   }
 
   Widget Item(String usuario, String foto, String des) {
+    double width = MediaQuery.of(context).size.width;
+    print(width);
     return Container(
       child: Column(
         children: [
           Container(
+            width: width,
             child: Row(
               children: [
                 Icon(
@@ -33,7 +36,7 @@ class _InstagramHomeState extends State<InstagramHome> {
                   color: Colors.white,
                 ),
                 SizedBox(
-                  width: 10,
+                  width: width / 25,
                 ),
                 Text(
                   "$usuario",
@@ -61,20 +64,20 @@ class _InstagramHomeState extends State<InstagramHome> {
                 Icons.thumb_up,
                 color: Colors.white,
               ),
-              SizedBox(width: 15),
+              SizedBox(width: width / 25),
               Icon(
                 Icons.message,
                 color: Colors.white,
               ),
               SizedBox(
-                width: 15,
+                width: width / 25,
               ),
               Icon(
                 Icons.send,
                 color: Colors.white,
               ),
               SizedBox(
-                width: 226,
+                width: width / 1.75,
               ),
               Icon(
                 Icons.save_alt,
