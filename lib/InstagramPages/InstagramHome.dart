@@ -75,14 +75,14 @@ class _InstagramHomeState extends State<InstagramHome> {
                 width: width / 25,
               ),
               Icon(
-                Icons.send,
+                MyFlutterApp.paper_plane,
                 color: Colors.white,
               ),
               SizedBox(
                 width: width / 1.75,
               ),
               Icon(
-                Icons.save_alt,
+                MyFlutterApp.bookmark,
                 color: Colors.white,
               ),
             ],
