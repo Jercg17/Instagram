@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../my_flutter_app_icons.dart';
+
 class InstagramHome extends StatefulWidget {
   InstagramHome({Key key}) : super(key: key);
 
@@ -61,12 +63,12 @@ class _InstagramHomeState extends State<InstagramHome> {
           Row(
             children: [
               Icon(
-                Icons.thumb_up,
+                Icons.favorite_border,
                 color: Colors.white,
               ),
               SizedBox(width: width / 25),
               Icon(
-                Icons.message,
+                MyFlutterApp.comment,
                 color: Colors.white,
               ),
               SizedBox(
