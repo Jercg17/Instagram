@@ -10,6 +10,7 @@ class InstagramSearch extends StatefulWidget {
 class _InstagramSearchState extends State<InstagramSearch> {
   @override
   Widget build(BuildContext context) {
+    double width = MediaQuery.of(context).size.width;
     return Container(
         padding: const EdgeInsets.all(16),
         child: ListView(
@@ -17,7 +18,7 @@ class _InstagramSearchState extends State<InstagramSearch> {
             Image.asset(
               "assets/images/pelusa.jpeg",
               height: 400,
-              width: 400,
+              width: width * .01,
             ),
             SizedBox(
               height: 20,
@@ -25,7 +26,7 @@ class _InstagramSearchState extends State<InstagramSearch> {
             Row(
               children: [
                 SizedBox(
-                  width: 5,
+                  width: width * .01,
                 ),
                 Image.asset(
                   "assets/images/ricardog2.jpeg",
@@ -33,7 +34,7 @@ class _InstagramSearchState extends State<InstagramSearch> {
                   width: 110,
                 ),
                 SizedBox(
-                  width: 5,
+                  width: width * .01,
                 ),
                 Image.asset(
                   "assets/images/ricardog3.jpeg",
@@ -41,7 +42,7 @@ class _InstagramSearchState extends State<InstagramSearch> {
                   width: 110,
                 ),
                 SizedBox(
-                  width: 5,
+                  width: width * .01,
                 ),
                 Image.asset(
                   "assets/images/ricardog4.jpeg",
@@ -58,7 +59,7 @@ class _InstagramSearchState extends State<InstagramSearch> {
                 Row(
                   children: [
                     SizedBox(
-                      width: 5,
+                      width: width * .01,
                     ),
                     Image.asset(
                       "assets/images/randomcute.jpeg",
@@ -66,7 +67,7 @@ class _InstagramSearchState extends State<InstagramSearch> {
                       width: 110,
                     ),
                     SizedBox(
-                      width: 5,
+                      width: width * .01,
                     ),
                     Image.asset(
                       "assets/images/randomcute2.jpeg",
@@ -74,7 +75,7 @@ class _InstagramSearchState extends State<InstagramSearch> {
                       width: 110,
                     ),
                     SizedBox(
-                      width: 5,
+                      width: width * .01,
                     ),
                     Image.asset(
                       "assets/images/ricardog5.jpeg",
@@ -93,7 +94,7 @@ class _InstagramSearchState extends State<InstagramSearch> {
                 Row(
                   children: [
                     SizedBox(
-                      width: 5,
+                      width: width * .01,
                     ),
                     Image.asset(
                       "assets/images/pelusa2.jpeg",
@@ -101,7 +102,7 @@ class _InstagramSearchState extends State<InstagramSearch> {
                       width: 110,
                     ),
                     SizedBox(
-                      width: 5,
+                      width: width * .01,
                     ),
                     Image.asset(
                       "assets/images/ricardog6.jpeg",
@@ -109,7 +110,7 @@ class _InstagramSearchState extends State<InstagramSearch> {
                       width: 110,
                     ),
                     SizedBox(
-                      width: 5,
+                      width: width * .01,
                     ),
                     Image.asset(
                       "assets/images/pochi.jpeg",
