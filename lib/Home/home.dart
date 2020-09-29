@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:myInstagram/InstagramPages/InstagramAct.dart';
 import 'package:myInstagram/InstagramPages/InstagramHome.dart';
 import 'package:myInstagram/InstagramPages/InstagramSearch.dart';
+import 'package:myInstagram/my_flutter_app_icons.dart';
 
 class Home extends StatefulWidget {
   Home({Key key}) : super(key: key);
@@ -46,7 +47,7 @@ class _HomeState extends State<Home> {
           color: Colors.white,
         ),
         title: const Text('Instagram'),
-        actions: [Icon(Icons.send)],
+        actions: [Icon(MyFlutterApp.paper_plane)],
       ),
       //muy importante tener el body para la BottomNavigationBar
       body: Center(
