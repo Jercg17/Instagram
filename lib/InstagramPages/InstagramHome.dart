@@ -68,7 +68,7 @@ class _InstagramHomeState extends State<InstagramHome> {
               ),
               SizedBox(width: width / 25),
               Icon(
-                CustomIcons.comment_empty,
+                MyFlutterApp.comment_empty,
                 color: Colors.white,
               ),
               SizedBox(
